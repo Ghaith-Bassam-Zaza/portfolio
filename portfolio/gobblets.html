@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gobblet AI Player Details</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="../assets/img/logo.png" rel="icon">
+  <link href="../assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .swiper-slide img {
+      height: 700px; /* Set your desired height here */
+      object-fit: contain; /* Make sure the image fills the height without distortion */
+    }
+  </style>
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="../assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">GhaiythZaza - غيث ظاظا</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html">Home<br></a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Gobblet AI Player Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li class="current">Gobblet AI Player Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="../assets/img/portfolio/AI/Gobblets/1.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="../assets/img/portfolio/AI/Gobblets/2.png" alt="">
+            </div>
+
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Gobblet AI Player</h2> <p> In this project, we will explore the game-playing of Gobblet, an abstract game played on a 4x4 grid with each of the two players having twelve pieces that can nest on top of one another to create three stacks of four pieces. </p> <p> Your goal in Gobblet is to place four of your pieces in a horizontal, vertical, or diagonal row. Your pieces start nested off the board. On a turn, you either play one exposed piece from your three off-the-board piles or move one piece on the board to any other spot on the board where it fits. A larger piece can cover any smaller piece. </p> <p> A piece being played from off the board may not cover an opponent's piece unless it's in a row where your opponent has three of his color. </p> <p> Your memory is tested as you try to remember which color one of your larger pieces is covering before you move it. As soon as a player has four like-colored pieces in a row, he wins - except in one case: If you lift your piece and reveal an opponent's piece that finishes a four-in-a-row, you don't immediately lose; you can't return the piece to its starting location, but if you can place it over one of the opponent's three other pieces in that row, the game continues. </p> <p>
+                <p> Components: <ul> <li>16-square playing board</li> <li>12 white Gobblets</li> <li>12 black Gobblets</li> <li>Video: <a href="https://www.youtube.com/watch?v=aSaAjQY8_b0">Game Tutorial</a></li> </ul> </p> <h3>The GUI</h3> <p> You will need to create a GUI that allows for human vs. human, human vs. computer, and computer vs. computer gameplay. The GUI must include the following main features: <ul> <li> <strong>Board:</strong> Display the current game board and the current pieces on the board. </li> <li> <strong>Move input:</strong> Allow human players to input their moves by clicking on the board. </li> <li> <strong>Game status:</strong> Whose turn it is, and if the game is over. </li> <li> <strong>Game options:</strong> Allow players to choose different game modes (e.g., human vs. human, human vs. computer, computer vs. computer), choose the AI player difficulty level (for each AI player), and start/restart a new game. </li> </ul> </p> <h3>Game Playing Algorithms</h3> <p> <ul> <li> <strong>The minimax algorithm:</strong> A basic search algorithm that examines all possible moves from a given position and selects the move that leads to the best outcome for the current player. </li> <li> <strong>Alpha-beta pruning:</strong> An improvement on the minimax algorithm that can reduce the number of nodes that need to be searched. </li> <li> <strong>Alpha-beta pruning with iterative deepening:</strong> Depth is increased iteratively in the search tree until the timing constraints are violated. </li> </ul> </p> <h3>Heuristics</h3>
+                <h4>1- Time-Pressured Gameplay Heuristic:</h4><p> In our fast-paced game, the Time-Pressured Gameplay Heuristic comes into play, tackling the challenge of making decisions within timed turns. Balancing exploration depth is crucial—too shallow risks inadequacy, while too large may not finish in time. The smart solution is Iterative Deepening Search, exploring progressively deeper layers (1, 2, 3, and so on). This ensures our algorithm always has a solid move ready, offering players a dynamic experience where they can make thoughtful decisions even in the face of time constraints.</p><h4> 2-Tapered Search Heuristic in Game Playing:</h4> <p> The Tapered Search Heuristic is a nuanced strategy designed to refine decision-making in the game-playing arena. It involves ordering nodes based on values from the previous iteration, allocating more branches to higher-ranked children and strategically ruling out seemingly unfavorable moves. This heuristic aims to streamline the exploration process, focusing computational efforts on promising lines of play. However, a potential challenge arises as the heuristic, in its reliance on past values, may be susceptible to misinformation. This introduces the risk of missing out on potentially advantageous moves due to the heuristic's occasional misleading nature.</p>
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong> AI & Game Development</li>
+                <li><strong>Client</strong> Personal Practice Project</li>
+                <li><strong>Project Date</strong> Jan 28, 2024</li> 
+                <li><strong>Project Repository</strong> <a href="https://github.com/Ghaith-Bassam-Zaza/GobbletGame">https://github.com/Ghaith-Bassam-Zaza/GobbletGame</a></li>
+                <li><a href="https://github.com/Ghaith-Bassam-Zaza/GobbletGame" class="btn-visit align-self-start">Visit Repository</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">GhaithZaza</strong> <span>All Rights Reserved</span></p>
+      </div>
+      
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
